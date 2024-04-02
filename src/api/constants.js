@@ -1,0 +1,6 @@
+export const BASE_URL='https://gateway.scan-interfax.ru'
+export const LOGIN_ENDPOINT  = '/api/v1/account/login'
+export const ACCOUNT_INFO = '/api/v1/account/info'
+export const OBJECT_SEARCH = '/api/v1/objectsearch'
+export const SEARCH_HISTOGRAMS = '/api/v1/objectsearch/histograms'
+export const SEARCH_DOC = '/api/v1/documents'

@@ -1,0 +1,196 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 2500px;
+    width: -webkit-fill-available;
+    align-items: stretch;
+}
+
+.searchService {
+    position: relative;
+    width: -webkit-fill-available;
+    height: 620px;
+
+}
+
+.headerMain,
+.description {
+    width: 55%;
+}
+
+.headerMain {
+    font-size: 60px;
+    font-family: 'Ferry';
+}
+
+.description {
+    font-size: 20px;
+    font-family: 'Inter';
+}
+
+.request {
+    width: 335px;
+    height: 59px;
+    background-color: var(--additional-color-blue);
+    margin-top: 30px;
+    font-size: 22px;
+    color: var(--main-color-white);
+
+}
+.request a {
+        text-decoration: none;
+        color: var(--main-color-white);
+}
+
+.searchService img {
+    position: absolute;
+    top: -15px !important;
+    right: -40px !important;
+    width: 50%;
+    height: 594px;
+}
+
+.heading-scroll,
+.heading-tarife {
+    font-size: 45px;
+}
+
+.mainSkin {
+    height: 575px;
+}
+
+.mainSkinMobile{
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+    .Main {
+        display: flex;
+        flex-direction: column;
+        height: 3290px;
+        width: -webkit-fill-available;
+        align-items: stretch;
+        margin-top: -50px;
+    }
+
+    .searchService {
+        position: relative;
+        width: -webkit-fill-available;
+        height: 620px;
+
+    }
+
+    .headerMain,
+    .description {
+        width: 100%;
+    }
+
+    .headerMain {
+        font-size: 28px;
+        font-family: 'Ferry';
+    }
+
+    .description {
+        font-size: 18px;
+        font-family: 'Inter';
+    }
+
+    .request {
+        width: -webkit-fill-available;
+        height: 59px;
+        background-color: var(--additional-color-blue);
+        margin-top: 30px;
+        font-size: 22px;
+        color: var(--main-color-white);
+
+    }
+
+    .searchService img {
+        position: relative;
+        top: 0px !important;
+        left: 0px !important;
+        width: 100%;
+        height: 330px;
+    }
+
+    .heading-scroll {
+        margin-top: 75px;
+    }
+
+    .heading-scroll,
+    .heading-tarife {
+        font-size: 28px;
+    }
+
+
+
+    .mainSkin {
+        display: none;
+        background-image: url('../Main/mainPhoto2Mobile.svg');
+    }
+
+    .mainSkinMobile{display: block;}
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+
+    .Main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 2500px;
+        width: -webkit-fill-available;
+        align-items: stretch;
+    }
+
+    .searchService {
+        position: relative;
+        width: -webkit-fill-available;
+        height: 620px;
+
+    }
+
+    .headerMain,
+    .description {
+        width: 55%;
+    }
+
+    .headerMain {
+        font-size: 60px;
+        font-family: 'Ferry';
+    }
+
+    .description {
+        font-size: 20px;
+        font-family: 'Inter';
+    }
+
+    .request {
+        width: 335px;
+        height: 59px;
+        background-color: var(--additional-color-blue);
+        margin-top: 30px;
+        font-size: 22px;
+        color: var(--main-color-white);
+
+    }
+
+    .searchService img {
+        position: absolute;
+        top: -15px !important;
+        right: -40px !important;
+        width: 50%;
+        height: 594px;
+    }
+
+    .heading-scroll,
+    .heading-tarife {
+        font-size: 45px;
+    }
+
+    .mainSkin {
+        height: 575px;
+    }
+}

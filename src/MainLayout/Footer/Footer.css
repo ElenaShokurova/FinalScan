@@ -1,0 +1,28 @@
+footer {
+    padding: 0 45px 0;
+    margin: 0;
+    background-color: var(--main-color-azure);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: -webkit-fill-available;
+    height: 137px;
+}
+
+.adress {
+    width: 199px;
+    text-align: end;
+    color: var(--main-color-white);
+    size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+
+    footer {
+        padding: 0 14px 0;
+    }
+
+}

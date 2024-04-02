@@ -1,0 +1,74 @@
+.Histogram {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    height: 39px;
+    width: 39px;
+    cursor: pointer;
+}
+
+.table {
+    margin: 20px 0;
+    padding: 0;
+    width: 90vw;
+    border: 2px solid var(--main-color-azure);
+    border-radius: 13px;
+    height: 158px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.example {
+    min-width: 133px;
+    color: #fff;
+    background-color: var(--main-color-azure);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 0 0 10px;
+    align-items: center;
+}
+
+.example div {
+    height: 33%;
+    padding-top: 10%;
+}
+
+.slider_container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 133px;
+    border-right: 2px solid #a1a0a0;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 11px;
+
+}
+
+.slider_text {
+    font-family: "Inter";
+    font-size: 18px;
+}
+
+.loader {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+

@@ -1,0 +1,106 @@
+.listNews {
+    font-family: 'Inter';
+}
+
+.News {
+    width: 640px;
+    box-shadow: 0px 0px 20px 0px #00000033;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 30px 35px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.date p {
+    padding-right: 15px;
+}
+
+.date a {
+    text-decoration: underline;
+    color: var(--main-color-black);
+    opacity: 0.5;
+}
+
+.title {
+    font-size: 26px;
+    margin: 0;
+}
+
+.type {
+    width: 157px;
+    border-radius: 5px;
+    background: var(--additional-color-yellow);
+    font-size: 12px;
+    text-align: center;
+}
+
+.text,
+.indent {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.read {
+    width: 223px;
+    height: 47px;
+    margin: 32px 0 0;
+    background-color: var(--additional-color-light-blue);
+    color: var(--main-color-black);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footerNews {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.countWords {
+    margin: 0;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .listNews {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .News,
+    .News img {
+        width: 100%;
+    }
+
+    .News {
+        padding: 10px 15px 20px;
+    }
+
+    .date,
+    .read,
+    .countWords {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .text,
+    .indent {
+        font-size: 12px;
+    }
+
+    .read {
+        width: 195px;
+        height: 40px;
+
+    }
+}

@@ -1,0 +1,294 @@
+.form,
+.enter,
+.register,
+.goin,
+.recovery {
+  font-family: 'Inter';
+
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  position: absolute;
+  top: 100px;
+  bottom: 137px;
+  font-family: 'Ferry';
+}
+
+
+button {
+  cursor: pointer;
+}
+
+
+main {
+  padding: 0 45px 0;
+  margin: 0;
+}
+
+
+
+
+.Authorization-main {
+  position: relative;
+  width: 50%;
+  height: 100%;
+
+}
+
+.heading-main {
+  font-size: 40px;
+}
+
+.characters {
+  width: 320px;
+  height: 340px;
+  position: relative;
+  left: 110px;
+}
+
+.lock {
+  position: absolute;
+  left: -45px;
+  top: -50px;
+}
+
+.form {
+  padding: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  top: 35px;
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 20px 0px #00000026;
+}
+
+.enter-form {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.enter,
+.register {
+  display: inline-block;
+  font-size: 16px;
+  padding-bottom: 12px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--main-color-azure);
+}
+
+.enter {
+  width: 180px;
+  margin-right: 7.5px;
+}
+
+.register {
+  width: 233px;
+  margin-left: 7.5px;
+  color: rgb(196, 190, 190);
+  border-bottom: 2px solid rgb(196, 190, 190);
+
+}
+
+.login {
+  margin-top: 39px;
+}
+
+input {
+  width: -webkit-fill-available;
+  height: 43px;
+  border-radius: 5px;
+}
+
+.goin {
+  height: 59px;
+  background-color: var(--additional-color-blue);
+  margin-top: 30px;
+  font-size: 22px;
+  color: var(--main-color-white);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.recovery {
+  margin: 0 auto;
+  width: -webkit-fill-available;
+  margin-top: 14px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--additional-color-blue);
+  color: var(--additional-color-blue);
+  font-size: 14px;
+}
+
+.enter a,
+.register a {
+  color: var(--main-color-black);
+}
+
+.recovery a {
+  color: var(--additional-color-blue);
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+  main {
+    padding: 0 14px 0;
+  }
+
+  .AuthorizationMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px 0;
+    height: 1280px;
+    max-width: 375px;
+  }
+
+  .Authorization-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .heading-main {
+    font-size: 22px;
+    position: relative;
+    width: 90%;
+
+  }
+
+  .characters {
+    top: 300px;
+    left: 0;
+    width: 90%;
+  }
+
+  /*  форма*/
+  .form {
+    width: 80%;
+    position: relative;
+    top: -580px;
+  }
+
+  .lock {
+    position: absolute;
+    left: 170px;
+    top: -73px;
+  }
+
+
+  .enter-form {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+  }
+
+  .enter,
+  .register {
+    display: inline-block;
+    font-size: 16px;
+    padding-bottom: 12px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--main-color-azure);
+  }
+
+  .enter {
+    width: 95px;
+    margin-right: 7.5px;
+  }
+
+  .register {
+    width: 175px;
+    margin-left: 7.5px;
+    color: rgb(196, 190, 190);
+    border-bottom: 2px solid rgb(196, 190, 190);
+
+  }
+
+  .login {
+    margin-top: 39px;
+  }
+
+  input,
+  .goin,
+  .recovery {
+    width: 100%;
+
+  }
+
+  .social a {
+    display: inline-block;
+    width: 90px;
+  }
+
+}
+
+/* @media screen and (min-width: 426px) and (max-width: 1024px) {
+
+  main
+
+    {
+    padding: 0 14px 0;
+
+  }
+
+  main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .App-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .heading-main {
+    font-size: 22px;
+    left: -85px;
+
+  }
+
+  .characters {
+    top: 700px;
+    left: 0;
+
+  }
+
+  .form {
+    top: -200px;
+  }
+
+  .form,
+  .enter-form {
+    width: 90%;
+  }
+
+  .lock {
+    position: absolute;
+    left: 170px;
+    top: -73px;
+  }
+} */

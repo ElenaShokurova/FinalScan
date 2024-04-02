@@ -1,0 +1,101 @@
+.Result {
+    width: -webkit-fill-available;
+    /* height: 100%; */
+    height: 2000px;
+
+    flex-direction: column;
+}
+
+.resultHeading {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: -webkit-fill-available;
+}
+
+.brief {
+    width: -webkit-fill-available;
+}
+
+.infoHeading {
+    font-family: 'Ferry';
+    font-size: 40px;
+}
+
+.infoText {
+    font-family: "Inter";
+    font-size: 20px;
+}
+
+.briefTitle,
+.resultTitle {
+    font-family: 'Ferry';
+    font-size: 30px;
+}
+
+.briefTitle {
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+.resultTitle {
+    margin: 58px 0;
+}
+
+.found {
+    font-family: "Inter";
+    font-size: 18px;
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+
+.listNews {
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+
+.button {
+    position: relative;
+    bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .Result {
+        top: 70px;
+        height: 137em;
+        justify-content: normal;
+    }
+
+    .resultHeading {
+        flex-direction: column;
+    }
+
+    .infoHeading,
+    .briefTitle,
+    .resultTitle {
+        font-size: 28px;
+    }
+    .resultTitle{
+        margin: 30px 0;
+    }
+
+    .infoText,
+    .found {
+        font-size: 18px;
+    }
+
+    .image img {
+        width: 350px;
+        height: 233px;
+    }
+
+    .button {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+
+}

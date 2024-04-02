@@ -1,0 +1,16 @@
+.NotFound {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotFound button{
+    width: 335px;
+    height: 59px;
+    background-color: var(--main-color-azure);
+    margin-top: 30px;
+    font-size: 22px;
+    color: var(--main-color-white);
+}

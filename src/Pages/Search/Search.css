@@ -1,0 +1,156 @@
+.Search {
+    width: -webkit-fill-available;
+    display: flex;
+    /* height: 900px; */
+}
+
+.header_search {
+    font-size: 40px;
+    width: 68%;
+}
+
+.text_search {
+    font-family: 'Inter';
+    font-size: 20px;
+    width: 50%;
+}
+
+.search_form {
+    width: 95%;
+    height: 470px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #00000033;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.inputs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 29px 0 0 44px;
+}
+
+.input {
+    width: 242px;
+    height: 43px;
+    margin-bottom: 5px;
+    border: 1px solid #C7C7C7;
+}
+
+.labels {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+.date_input {
+    width: 176px;
+    margin-right: 20px;
+    border: 1px solid #C7C7C7;
+
+}
+
+.image_block {
+    width: 35%;
+    height: 100%;
+}
+
+.folders {
+    position: fixed;
+    top: 200px;
+    right: 135px;
+}
+
+.document {
+    position: fixed;
+    top: 175px;
+    right: 395px;
+}
+
+.rocket {
+    position: fixed;
+    bottom: 137px;
+    right: 0;
+}
+
+.error-message {
+    color: red;
+    font-family: "Inter";
+    font-size: 11px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .Search {
+        height: 90em;
+    }
+
+    .header_search {
+        font-size: 28px;
+        width: 95%;
+    }
+
+    .text_search {
+        font-size: 18px;
+        width: 75%;
+    }
+
+    .search_form {
+        flex-direction: column;
+        width: 100%;
+        max-width: 375px;
+        height: auto;
+    }
+
+    .inputs {
+        margin: 29px 10px;
+        width: 95%;
+    }
+
+    .input {
+        width: 98%;
+    }
+
+    .dates {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date_input {
+        width: 98%;
+    }
+    .error-message{
+        text-align: center;
+    }
+
+    .image_block {
+        width: 0;
+    }
+
+    .document {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 120px;
+        right: 20px;
+    }
+
+    .folders {
+        display: none;
+    }
+
+    .rocket {
+        position: absolute;
+        left: 0 !important;
+        right: 0 !important;
+        top: 53em;
+        bottom: 137px;
+        width: 379.57px;
+        height: 403.28px;
+    }
+}

@@ -1,0 +1,51 @@
+.mobile {
+    flex-direction: column;
+    background-color: var(--main-color-azure);
+    width: -webkit-fill-available;
+    top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menu-mobile a,
+.entry-mobile a {
+    margin-bottom: 25px;
+    color: var(--main-color-white);
+}
+.menu-mobile a, .entry-register-mobile{
+    font-size: 18px;
+    font-family: "Inter";
+}
+
+.entry-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.entry-register-mobile {
+    background: transparent;
+    border: none;
+    margin: 0;
+    color: var(--main-color-white);
+    opacity: 0.4;
+}
+
+.entry-enter-mobile {
+    width: 295px;
+    height: 51.96px;
+    border-radius: 5px;
+font-size: 20px;
+border: none;
+background-color: var(--additional-color-light-blue);
+
+}

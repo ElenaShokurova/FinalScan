@@ -1,0 +1,189 @@
+.tarife {
+    font-family: 'Inter';
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemTarif {
+    position: relative;
+    width: 415px;
+    height: 540px;
+    margin: 0 18.5px 0;
+    padding: 0 30px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #00000026;
+    font-family: 'Inter';
+}
+
+
+.itemTarif img {
+    position: absolute;
+    top: 0px !important;
+    right: 0px !important;
+}
+
+.Beginner {
+    box-shadow: 0px 0px 20px 0px #00000026, inset 0px 8.5em var(--additional-color-yellow);
+}
+
+.Pro {
+    box-shadow: 0px 0px 20px 0px #00000026, inset 0px 8.5em var(--additional-color-light-blue);
+}
+
+.Business {
+    box-shadow: 0px 0px 20px 0px #00000026, inset 0px 8.5em var(--main-color-black);
+    color: var(--main-color-white);
+}
+
+.headerTarif {
+    height: 7.5em;
+    position: relative;
+    top: 15px;
+    left: 0px;
+    margin-bottom: 10px;
+}
+
+.nameTarife {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.somebodyTarif {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.currentTarife {
+    position: absolute;
+    right: 0px !important;
+    margin: 15px;
+    width: 134px;
+    height: 24px;
+    background-color: var(--additional-color-light-blue);
+    border-radius: 10px;
+    color: var(--main-color-white);
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 24px;
+}
+
+.Price,
+.infoTarif {
+    /* margin-top: 30px; */
+    color: var(--main-color-black);
+}
+
+.Price {
+    font-weight: 600;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+}
+
+.actionPrice {
+    font-size: 30px;
+}
+
+.oldPrice {
+    margin-left: 20px;
+    font-size: 25px;
+    opacity: 0.5;
+    text-decoration: line-through #000 !important;
+}
+
+.mounthPrice {
+    margin-top: -20px;
+}
+
+.infoTarif {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.infoTarif ul {
+    margin-left: -35px;
+}
+
+.infoTarif li {
+    list-style-image: url('../Tarife/li.svg');
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 25px;
+    padding-top: 14px;
+}
+
+.moreTarif {
+    height: 59px;
+    width: -webkit-fill-available;
+    background-color: var(--additional-color-blue);
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--main-color-white);
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .tarife {
+        font-family: 'Inter';
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .itemTarif {
+        position: relative;
+        width: -webkit-fill-available;
+        height: auto;
+        margin: 0 18.5px 15px;
+        padding: 0 30px 0;
+        border-radius: 10px;
+        font-family: 'Inter';
+
+    }
+
+    .nameTarife {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .somebodyTarif {
+        width: 90%;
+    }
+
+    .Price {
+        width: 125%;
+    }
+
+    .infoTarif {
+        margin: 0 -15px;
+    }
+
+    .infoTarif ul,
+    .moreTarif {
+        font-size: 18px;
+    }
+
+    .infoTarif li {
+        font-size: 16px;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+
+    .moreTarif {
+        margin: 30px 0;
+    }
+
+    .itemTarif img {
+        width: 59px;
+        height: 53px;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {}
